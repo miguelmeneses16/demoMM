@@ -19,11 +19,11 @@ public class RestData {
 		if(messagge.equals("MM")) {
 			response.setCode(200);
 			response.setStatus(true);
-			response.setMensaje("Mensaje Success: "+messagge);
+			response.setMensaje("Mensaje Bien: "+messagge);
 		}else {
 			response.setCode(402);
 			response.setStatus(false);
-			response.setMensaje("Mensaje Fallido: "+messagge);
+			response.setMensaje("Mensaje Errado: "+messagge);
 		}
 		return response;
 	}
